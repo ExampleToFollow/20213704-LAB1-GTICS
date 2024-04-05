@@ -71,9 +71,65 @@ FEATURE/NAVBAR FIN
 <!--
 FEATURE/HOME INICIO
 -->
+<style>
+    /* Container holding the image and the text */
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
 
+    /* Bottom left text */
+    .bottom-left {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+    }
 
+    /* Top left text */
+    .top-left {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+    }
 
+    /* Top right text */
+    .top-right {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+    }
+
+    /* Bottom right text */
+    .bottom-right {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+    }
+
+    /* Centered text */
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+</style>
+
+<div class="container">
+    <img src="https://github.com/ExampleToFollow/20213704-LAB1-GTICS/blob/a5c6db73e988ef2ef04c27e5a46bf66cc85c450c/src/main/resources/templates/Imagenes/Muyuna-lodge-Iquitos%20copia.jpg" alt="Snow" style="width:100%;">
+    <div class="bottom-left">Bottom Left</div>
+    <div class="top-left">Top Left</div>
+    <div class="top-right">Top Right</div>
+    <div class="bottom-right">Bottom Right</div>
+    <div class="centered">Centered</div>
+</div>
+
+<div class="image-container">
+    <img src="Muyuna-lodge-Iquitos copia.jpg" class="rounded mx-auto d-block" >
+    <div class="overlay-text">Iquitos </div>
+    <div class="overlay-text">Descubra aravillas ocultas y destinos inspiradores en iquitos </div>
+</div>
 <!--
 FEATURE/HOME FIN
 -->
